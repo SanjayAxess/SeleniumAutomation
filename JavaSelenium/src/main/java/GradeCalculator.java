@@ -17,6 +17,7 @@ public class GradeCalculator {
                     break;
                 case 9:
                     System.out.println("Grade A");
+
                     break;
                 case 8:
                     System.out.println("Grade B");
