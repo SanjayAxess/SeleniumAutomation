@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCode/JavaCode.iml" filepath="$PROJECT_DIR$/JavaCode/JavaCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratices/Pratices.iml" filepath="$PROJECT_DIR$/Pratices/Pratices.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeleniumAutomation.iml" filepath="$PROJECT_DIR$/SeleniumAutomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task/Task.iml" filepath="$PROJECT_DIR$/Task/Task.iml" />
     </modules>
   </component>
 </project>

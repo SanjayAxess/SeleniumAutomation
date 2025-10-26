@@ -1,11 +1,11 @@
 public class Task1 {
     //int z = 10;
     //int a = 0, b = 1;
-    int a = 527;
-    int b = 0;
-    int count;
+    //int a = 527;
+    //int b = 0;
+    //int count;
     //int square;
-    int sum;
+   // int sum;
     //int num;
     //Scanner sc = new Scanner(System.in);
 
@@ -46,15 +46,25 @@ public class Task1 {
 //        }
 //        System.out.println("Total Digit :" +count);
 //    }
-    public void sumadd(){
-        while (a != 0){
-            sum = sum + a % 10;
-            a = a/10;
-        }
-        System.out.println("Sum of Digit is :" +sum);
-    }
+//    public void sumadd(){
+//        while (a != 0){
+//            sum = sum + a % 10;
+//            a = a/10;
+//        }
+//        System.out.println("Sum of Digit is :" +sum);
+//    }
 
-    public void palindromes(){
+    public void primenum(){
+        int num;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number:");
+        num = sc.nextInt();
+        for(int i=1; i<=num; i++){
+            if(i%num==0){
+                num += i;
+                System.out.println("Prime number is:" +num);
+            }
+        }
 
 
     }
@@ -65,6 +75,7 @@ public class Task1 {
         //t1.addition();
         //t1.reverse2();
         //t1.counttotal();
-        t1.sumadd();
+        //t1.sumadd();
+        t1.primenum();
     }
 }
